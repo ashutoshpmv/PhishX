@@ -127,7 +127,7 @@ export default function App() {
               </div>
 
               <span className="published-badge">
-                PUBLISHED
+                PUBLISHED · AJIR · 2026
               </span>
 
             </div>
@@ -139,27 +139,24 @@ export default function App() {
               Detection
             </h2>
 
+<p>
+  Published in the AJIR Journal in 2026, this
+  research presents the hybrid framework behind
+  PhishX, combining machine learning with DNS
+  and SSL trust assessment.
+</p>
+            
 
-            <p>
-              PhishX is based on a hybrid research
-              framework combining machine learning
-              with DNS and SSL trust assessment.
-            </p>
 
-
-            <button
-              className="publication-button"
-              type="button"
-              disabled
-            >
-              <span>
-                View Publication
-              </span>
-
-              <span>
-                →
-              </span>
-            </button>
+           <a
+  className="publication-button"
+  href="/PhishX-Research-Paper.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span>View Publication</span>
+  <span>→</span>
+</a>
 
           </aside>
 

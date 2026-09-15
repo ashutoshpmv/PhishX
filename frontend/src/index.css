@@ -307,7 +307,7 @@ h1 span {
 
 .publication-button {
   width: 100%;
-
+ text-decoration: none;
   margin-top: 18px;
 
   padding: 11px 13px;
@@ -330,7 +330,7 @@ h1 span {
 
   font-weight: 700;
 
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .publication-button span:last-child {
